@@ -61,6 +61,7 @@ for file in os.listdir(directory):
 		value=Image.open(directory_in_str + filename)
 		text=pytesseract.image_to_string(value,config='--tessdata-dir "/usr/local/Cellar/tesseract/4.1.0/share/tessdata"')
 		#print("text present in images:",text)
+		value.close()
 		i2+=1
 		if(text != ""):
 			set_comment(directory_in_str + filename, text)
