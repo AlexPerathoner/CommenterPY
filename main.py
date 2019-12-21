@@ -17,6 +17,7 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
     if iteration == total: 
         print()
 
+#function by Michael Garito (https://stackoverflow.com/questions/27759204/how-to-write-os-x-finder-comments-from-python)
 def set_comment(file_path, comment_text):
     import applescript
     applescript.tell.app("Finder", f'set comment of (POSIX file "{file_path}" as alias) to "{comment_text}" as Unicode text')
@@ -73,13 +74,3 @@ for file in os.listdir(directory):
 
 print("Added comments to " + str(i1) + " files out of " + str(i2) + " compatible files (" + str(i3) + " files in directory)")
 
-
-	
-	
-
-# i am getting the below output
-#text present in images: I am curious about
-#area—filling text
-#rendering options
- 
-#this is the input image
