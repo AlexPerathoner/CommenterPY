@@ -31,7 +31,7 @@ Type ```python3 [path to Commenter.py file]``` in the terminal. Press enter.
 
 You'll now be asked to insert the path to the directory where the images are stored. If you don't know the right path just drag the folder into the terminal window.
 
-![Terminal Screenshot](/Users/alex/AppsMine/CommenterPY/Screens/pathTerminal.gif)
+![Terminal Screenshot](https://github.com/AlexPerathoner/CommenterPY/blob/master/Screens/pathTerminal.gif?raw=true)
 
 You can choose to *print all the info* (which is practically a debug mode). This allows you to see in real time what image CommenterPY is analyzing and what comments it has added.
 
@@ -43,15 +43,15 @@ When every image has been analyzed and commented a final message will be sent to
 2. The compatible files in the given directory (.png, .jpg, .jpeg)
 3. All the files in the given directory
 
-![Terminal Screenshot](/Users/alex/AppsMine/CommenterPY/Screens/termfinal.png)
+![Terminal Screenshot](https://github.com/AlexPerathoner/CommenterPY/blob/master/Screens/termfinal.png?raw=true)
 
 If we now check a file in the given directory we'll se that it has a new comment!
 
-![Info Screenshot](/Users/alex/AppsMine/CommenterPY/Screens/info.png)
+![Info Screenshot](https://github.com/AlexPerathoner/CommenterPY/blob/master/Screens/info.png?raw=true)
 
 This allows us to search for words in that image and find the file just using Finder:
 
-![Finder Screenshot](/Users/alex/AppsMine/CommenterPY/Screens/search.png)
+![Finder Screenshot](https://github.com/AlexPerathoner/CommenterPY/blob/master/Screens/search.png?raw=true)
 
 ## Future Updates
 The text in an image is not always important. I'm planning to develop a function to comment files using what the image represents, rather than what's written in it. For example a meme with a certain format should output the keywords of that format.
